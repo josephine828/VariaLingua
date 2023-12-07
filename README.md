@@ -2,6 +2,8 @@
 
 A dynamic and engaging web application exploring the historical, cultural, and linguistic aspects of Nigerian, Kenyan, and Cameroonian Englishes.
 
+To visit the deployed project, please go to https://varia-lingua.vercel.app/
+
 ## Overview
 
 VariaLingua is an Honors Option project developed as a dynamic web application utilizing the React framework. This project aims to provide an in-depth analysis of African English varieties, fostering a profound appreciation for the rich tapestry of World Englishes.
@@ -21,9 +23,9 @@ To run the application locally:
    git clone https://github.com/josephine828/VariaLingua.git
    ```
 
-2. Navigate to the project directory.
+2. Navigate to the react project directory.
    ```bash
-   cd VariaLingua
+   cd VariaLingua/varialingua
    ```
 
 3. Install dependencies.

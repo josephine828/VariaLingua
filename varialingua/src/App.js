@@ -19,6 +19,16 @@ const WelcomeScreen = () => {
     )
 }
 
+const InitProfile = ({ country }) => {
+    return (
+        <div className="init-profile">
+            {country === 'Welcome' && <WelcomeScreen />}
+            <h2>Initial Profile</h2>
+            <p>Placeholder content for {country}'s initial profile.</p>
+        </div>
+    )
+}
+
 const HistorySection = ({ country }) => {
     return (
         <div>
@@ -60,18 +70,36 @@ const AboutVariaLingua = () => {
     )
 }
 
+const ViewSources = () => {
+    return (
+        <div className="about-container neumorphic-container">
+            <h2>View Sources</h2>
+            <p>
+                This is a list of the resources used in this application! 
+                References:
+                Will be available soon!
+                Videos:
+                Will be available soon!
+            </p>
+        </div>
+    )
+}
+
 function App() {
     const [selectedCountry, setSelectedCountry] = useState('Welcome')
-    const [showOptions, setShowOptions] = useState(false)
+    const [selectedSection, setSelectedSection] = useState('')
     const [showAbout, setShowAbout] = useState(false)
+    const [showViewSources, setShowViewSources] = useState(false)
+    const [showInitProfile, setShowInitProfile] = useState(true)
+    const [showHistory, setShowHistory] = useState(false)
+    const [showCulture, setShowCulture] = useState(false)
+    const [showLinguistic, setShowLinguistic] = useState(false)
 
     const handleCountrySelect = (country) => {
         if (selectedCountry === country) {
             setSelectedCountry('Welcome')
-            setShowOptions(false)
         } else {
             setSelectedCountry(country)
-            setShowOptions(true)
         }
     }
 
@@ -79,14 +107,50 @@ function App() {
         setShowAbout(!showAbout)
     }
 
-    const renderOptions = () => {
-        return (
-            <div>
-                <HistorySection country={selectedCountry} />
-                <CultureSection country={selectedCountry} />
-                <LinguisticSection country={selectedCountry} />
-            </div>
-        )
+    const toggleViewSources = () => {
+        setShowViewSources(!showViewSources)
+    }
+
+    const showHistorySection = () => {
+        if (showHistory) {
+            setShowInitProfile(true)
+            setShowHistory(false)
+            setSelectedSection('')
+        } else {
+            setShowInitProfile(false)
+            setShowHistory(true)
+            setShowCulture(false)
+            setShowLinguistic(false)
+            setSelectedSection('History')
+        }
+    }
+
+    const showCultureSection = () => {
+        if (showCulture) {
+            setShowInitProfile(true)
+            setShowCulture(false)
+            setSelectedSection('')
+        } else {
+            setShowInitProfile(false)
+            setShowHistory(false)
+            setShowCulture(true)
+            setShowLinguistic(false)
+            setSelectedSection('Culture')
+        }
+    }
+
+    const showLinguisticSection = () => {
+        if (showLinguistic) {
+            setShowInitProfile(true)
+            setShowLinguistic(false)
+            setSelectedSection('')
+        } else {
+            setShowInitProfile(false)
+            setShowHistory(false)
+            setShowCulture(false)
+            setShowLinguistic(true)
+            setSelectedSection('Linguistics')
+        }
     }
 
     return (
@@ -96,14 +160,53 @@ function App() {
                 <h1>VariaLingua</h1>
             </header>
             <div className="container">
-                <div className="main-container neumorphic-container">
-                    {selectedCountry === 'Welcome' && <WelcomeScreen />}
-                    {selectedCountry !== 'Welcome' && !showOptions && (
-                        <div>
-                            <HistorySection country={selectedCountry} />
+                <div className="left-container">
+                    <div className="section-select-container">
+                        <div
+                            className={`section-button neumorphic-container ${selectedSection === "History" ? "selected-section" : ""}`}
+                            onClick={() => showHistorySection()}
+                        >
+                            <FontAwesomeIcon
+                                icon={['fas', 'monument']}
+                                className="icon"
+                            />
+                            History
                         </div>
-                    )}
-                    {showOptions && renderOptions()}
+                        <div
+                            className={`section-button neumorphic-container ${selectedSection === "Culture" ? "selected-section" : ""}`}
+                            onClick={() => showCultureSection()}
+                        >
+                            <FontAwesomeIcon
+                                icon={['fas', 'globe']}
+                                className="icon"
+                            />
+                            Culture
+                        </div>
+                        <div
+                            className={`section-button neumorphic-container ${selectedSection === "Linguistics" ? "selected-section" : ""}`}
+                            onClick={() => showLinguisticSection()}
+                        >
+                            <FontAwesomeIcon
+                                icon={['fas', 'language']}
+                                className="icon"
+                            />
+                            Linguistics
+                        </div>
+                    </div>
+                    <div className="main-container neumorphic-container">
+                        {showInitProfile && (
+                            <InitProfile country={selectedCountry} />
+                        )}
+                        {showHistory && (
+                            <HistorySection country={selectedCountry} />
+                        )}
+                        {showCulture && (
+                            <CultureSection country={selectedCountry} />
+                        )}
+                        {showLinguistic && (
+                            <LinguisticSection country={selectedCountry} />
+                        )}
+                    </div>
                 </div>
                 <div className="right-container">
                     <div className="dropdown-container neumorphic-container">
@@ -112,21 +215,21 @@ function App() {
                                 Click on a country to view its language profile!
                             </h2>
                             <div
-                                className="drop-option"
+                                className={`drop-option ${selectedCountry === 'Nigeria' ? 'selected-country' : ''}`}
                                 onClick={() => handleCountrySelect('Nigeria')}
                             >
                                 <NG title="Nigeria" className="flag-icon" />
                                 Nigeria
                             </div>
                             <div
-                                className="drop-option"
+                                className={`drop-option ${selectedCountry === 'Kenya' ? 'selected-country' : ''}`}
                                 onClick={() => handleCountrySelect('Kenya')}
                             >
                                 <KE title="Kenya" className="flag-icon" />
                                 Kenya
                             </div>
                             <div
-                                className="drop-option"
+                                className={`drop-option ${selectedCountry === 'Cameroon' ? 'selected-country' : ''}`}
                                 onClick={() => handleCountrySelect('Cameroon')}
                             >
                                 <CM title="Cameroon" className="flag-icon" />
@@ -137,15 +240,17 @@ function App() {
 
                     {showAbout && <AboutVariaLingua />}
 
+{showViewSources && <ViewSources />}
+
                     <div className="additional-container">
                         <div className="round-buttons">
-                            <div className="round-button neumorphic-container">
+                            <div className="round-button neumorphic-container"onClick={() => toggleViewSources()}>
                                 <FontAwesomeIcon
                                     icon={['fas', 'book']}
                                     className="icon"
                                 />
                                 <span className="button-text">
-                                    Sources View
+                                    View Sources
                                 </span>
                             </div>
                             <div
