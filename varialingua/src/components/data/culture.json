@@ -1,0 +1,84 @@
+[
+    {
+      "country": "Nigeria",
+      "type": "",
+      "title": "Cultural Festivals in Nigeria",
+      "description": "Explore the vibrant festivals of Nigeria.",
+      "link": "",
+      "source": "Local Cultural Center",
+      "text": ""
+    },
+    {
+      "country": "Nigeria",
+      "type": "video",
+      "title": "Nigerian Cuisine",
+      "description": "Discover the flavors of Nigerian dishes.",
+      "link": "https://www.youtube.com/embed/4HWiuZ08To4",
+      "source": "Food Network",
+      "text": ""
+    },
+    {
+      "country": "Nigeria",
+      "type": "video",
+      "title": "Traditional Music",
+      "description": "Experience the rhythms of Nigerian music.",
+      "link": "https://www.youtube.com/embed/7wzY6hv2vWU",
+      "source": "Local Musicians",
+      "text": ""
+    },
+    {
+      "country": "Nigeria",
+      "type": "video",
+      "title": "Nollywood Cinema",
+      "description": "Insight into Nigeria's film industry.",
+      "link": "https://www.youtube.com/embed/XDXBgwQbI40",
+      "source": "Nollywood Studios",
+      "text": ""
+    },
+    {
+      "country": "Nigeria",
+      "type": "video",
+      "title": "Traditional Dances",
+      "description": "Journey through Nigerian dance forms.",
+      "link": "https://www.youtube.com/embed/YTLFpucO2qc",
+      "source": "Local Dance Troupe",
+      "text": ""
+    },
+    {
+      "country": "Nigeria",
+      "type": "text",
+      "title": "Nigerian Folklore",
+      "description": "Explore ancient stories and legends.",
+      "link": "",
+      "source": "Local Storytellers",
+      "text": "This is some text that should show up in the content box!"
+    },
+    {
+      "country": "Nigeria",
+      "type": "picture",
+      "title": "Art and Craftsmanship",
+      "description": "Discover Nigeria's artistic heritage.",
+      "link": "https://i.ytimg.com/vi/XDXBgwQbI40/hq720_live.jpg?sqp=CLi6yKsG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDD1WehEAHrjhzIy3EG6tgQYTWZyw",
+      "source": "Local Artisans",
+      "text": ""
+    },
+    {
+      "country": "Kenya",
+      "type": "",
+      "title": "Kenyan Wildlife",
+      "description": "Explore the diverse wildlife of Kenya.",
+      "link": "",
+      "source": "National Parks Authority",
+      "text": ""
+    },
+    {
+      "country": "Cameroon",
+      "type": "",
+      "title": "Traditional Masks",
+      "description": "Discover the significance of Cameroonian masks.",
+      "link": "",
+      "source": "Local Art Museum",
+      "text": ""
+    }
+  ]
+  
