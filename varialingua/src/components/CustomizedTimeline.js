@@ -22,15 +22,6 @@ const CustomizedTimeline = (props) => {
     }
   };
 
-  const formatDate = (dateString) => {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
-  };
-
   return (
     <Timeline position="alternate">
       {data.map((item, index) => (
@@ -41,7 +32,7 @@ const CustomizedTimeline = (props) => {
             variant="body"
             color="text.secondary"
           >
-            {formatDate(item.date)}
+            {item.date}
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
