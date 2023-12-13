@@ -1,57 +1,39 @@
 [
     {
       "country": "Nigeria",
-      "type": "",
-      "title": "Cultural Festivals in Nigeria",
-      "description": "Explore the vibrant festivals of Nigeria.",
-      "link": "",
-      "source": "Local Cultural Center",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
-      "type": "video",
-      "title": "Nigerian Cuisine",
-      "description": "Discover the flavors of Nigerian dishes.",
-      "link": "https://www.youtube.com/embed/4HWiuZ08To4",
-      "source": "Food Network",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
-      "type": "video",
-      "title": "Traditional Music",
-      "description": "Experience the rhythms of Nigerian music.",
-      "link": "https://www.youtube.com/embed/7wzY6hv2vWU",
-      "source": "Local Musicians",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
-      "type": "video",
-      "title": "Nollywood Cinema",
-      "description": "Insight into Nigeria's film industry.",
-      "link": "https://www.youtube.com/embed/XDXBgwQbI40",
-      "source": "Nollywood Studios",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
-      "type": "video",
-      "title": "Traditional Dances",
-      "description": "Journey through Nigerian dance forms.",
-      "link": "https://www.youtube.com/embed/YTLFpucO2qc",
-      "source": "Local Dance Troupe",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
       "type": "text",
-      "title": "Nigerian Folklore",
-      "description": "Explore ancient stories and legends.",
+      "title": "Agnes in the Game of Love",
+      "description": "Iduh has a character, Okonkwo, use Nigerian Pidgin to express himself, and his character is less educated and adds humor to the plot.",
       "link": "",
-      "source": "Local Storytellers",
-      "text": "This is some text that should show up in the content box!"
+      "source": "\"Agnes in the Game of Love\" by Thomas Iduh",
+      "text": "This thing don chop una head bad bad. Idon spoil una brain and na him make una papa dey talk to una, una go begin wordam like small boy."
+    },
+    {
+      "country": "Nigeria",
+      "type": "video",
+      "title": "Sap No Manna",
+      "description": "In The New Masquerade, one of the characters, Chief Zebrudaya, mixes his 'bombastic' English with ungrammatical Broken English forms.",
+      "link": "https://www.youtube.com/embed/XhO0836U3Dw",
+      "source": "The New Masquerade (sitcom) & \"New Englishes: A West African Perspective\"",
+      "text": ""
+    },
+    {
+      "country": "Nigeria",
+      "type": "video",
+      "title": "Is English The Problem",
+      "description": "In this Mark Angel Comedy series, one of the characters, Emmanuella, uses Nigerian Pidgin to express herself. Her uncle on the other hand speaks a broken form of English, which .",
+      "link": "https://www.youtube.com/embed/_Za7Hd3_raM",
+      "source": "Mark Angel Comedy",
+      "text": ""
+    },
+    {
+      "country": "Nigeria",
+      "type": "video",
+      "title": "When your Nigerian accent slips out 😬🤳🏾",
+      "description": "OK so this is over the top, but I know this is happened to many people who have learned English. 😂 or sometimes the accent comes out when you are angry or shocked. Is it just me?",
+      "link": "https://www.youtube.com/embed/Ljb_Nw0RzQc",
+      "source": "MIKE O.",
+      "text": ""
     },
     {
       "country": "Nigeria",
@@ -69,6 +51,24 @@
       "description": "Explore the diverse wildlife of Kenya.",
       "link": "",
       "source": "National Parks Authority",
+      "text": ""
+    },
+    {
+      "country": "Kenya",
+      "type": "video",
+      "title": "Nairobi Law",
+      "description": "In this series, Richard Mwako runs his law firm with an iron hand. He demands the best from his associates and never hesitates to make decisions that he believes are in his clients' best interests.",
+      "link": "https://www.youtube.com/embed/l0LDeauz3ho",
+      "source": "TidPix",
+      "text": ""
+    },
+    {
+      "country": "Kenya",
+      "type": "video",
+      "title": "Nairobi Official Film",
+      "description": "In this short film, Rachel is a typical University girl living in the heart of Nairobi with her roommate Jess. She has a boyfriend, Mike, who happens to be Jess’ best friend.  Rachel has a habit of dating multiple men at ago. Mike on the other hand is convinced that Rachel is his soulmate and wants to propose. She finds herself in a fix when Mike decides he has had enough of her lies. Meanwhile, Jess’ is discovering her feelings for Mike and decides to explore them further.",
+      "link": "https://www.youtube.com/embed/gpu2B1VjxuU",
+      "source": "Sawa Pictures",
       "text": ""
     },
     {

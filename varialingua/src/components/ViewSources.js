@@ -29,31 +29,7 @@ const sources = [
       "Schneider, Edgar W. English around the World : An Introduction. Cambridge, Cambridge University Press, 2011, pp. 142–157.",
       "Ugwuanyi, Kingsley. “Introduction to Nigerian English.” Www.oed.com, www.oed.com/discover/introduction-to-nigerian-english."
     ],
-  },
-  {
-    type: "Videos",
-    content: [
-      "Source 1",
-      "Source 2",
-      // Add more references as needed
-    ],
-  },
-  {
-    type: "Images",
-    content: [
-      "Source 1",
-      "Source 2",
-      // Add more references as needed
-    ],
-  },
-  {
-    type: "Literature",
-    content: [
-      "Source 1",
-      "Source 2",
-      // Add more references as needed
-    ],
-  },
+  }
 ];
 
 const ViewSources = () => {
