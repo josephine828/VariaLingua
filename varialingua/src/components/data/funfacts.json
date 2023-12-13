@@ -1,48 +1,47 @@
 [
     {
-      "country": "Nigeria",
-      "fact": [
-        "English is the official language of Nigeria, spoken by millions as a second language.",
-        "Nigeria has a diverse linguistic landscape with over 500 languages, making English a unifying language.",
-        "The Nigerian English accent varies across different regions and ethnic groups.",
-        "Nigeria's literary scene boasts globally acclaimed authors like Chinua Achebe and Wole Soyinka.",
-        "English is essential for business and government affairs in Nigeria.",
-        "Nigerian Pidgin English is widely spoken as a creole language.",
-        "Nigeria's educational system emphasizes English proficiency.",
-        "The use of English in Nigerian music and entertainment contributes to its cultural influence.",
-        "The Nigerian English lexicon incorporates indigenous words from various ethnic languages.",
-        "English language proficiency is a significant advantage for job opportunities in Nigeria."
-      ]
+        "country": "Nigeria",
+        "fact": [
+            "As of 2021, Nigeria boasts over 60 million English speakers, making it one of the largest English-speaking countries globally.",
+            "As of 2021, more than 30 million Nigerians speak Nigerian Pidgin, a widely used creole language.",
+            "English serves as Nigeria's official language and is spoken as a second language by millions.",
+            "In educated and urban settings, English is becoming a primary language.",
+            "Nigerian Pidgin predominates in informal settings like markets, public transport, and among the less affluent.",
+            "For many educated Nigerians, 'English' means 'standard English,' and the 'ideal' form of which is British English.",
+            "The formal types of English dominate in politics, media, business, and formal education.",
+            "Nigerian Pidgin is increasingly seen in formal contexts like advertisements and political speeches.",
+            "Nigerian English lacks an authoritative grammar or dictionary.",
+            "Renowned authors like Chinua Achebe and Wole Soyinka incorporate Nigerian Pidgin into their literary works."
+        ]
     },
     {
-      "country": "Kenya",
-      "fact": [
-        "English serves as a primary language in education and government in Kenya.",
-        "Kenya's diverse cultural heritage is reflected in its English language usage.",
-        "Kenyans often code-switch between English and local languages in daily conversations.",
-        "Kenyan literature, like Ngũgĩ wa Thiong'o's works, has gained international acclaim.",
-        "English proficiency is a crucial skill for economic growth and job prospects in Kenya.",
-        "Kenya's media extensively uses English in newspapers, TV, and radio broadcasts.",
-        "English is vital in Kenya's tourism sector, facilitating communication with visitors.",
-        "Kenya's urban centers exhibit variations in spoken English influenced by local dialects.",
-        "English serves as a language of opportunity and social mobility for many Kenyans.",
-        "English education is considered a key factor in career advancement in Kenya."
-      ]
+        "country": "Kenya",
+        "fact": [
+            "English, alongside Swahili, is an official language in Kenya, largely considered the lingua franca.",
+            "Despite being less common than native languages, English dominates in media, government, and schools.",
+            "In Kenya, English is the primary medium of instruction from grade one in urban areas and grade four in rural regions.",
+            "Radios and daily newspapers in Kenya predominantly broadcast and publish content in English.",
+            "Nairobi's shops and essential services predominantly utilize English signage for easy operation by English-speaking visitors.",
+            "Billboards are written in English on one side of the board with a translation into a local language or Kiswahili on the other side.",
+            "There is a wide rural-urban disparity in English usage as English's widespread use in towns contrasts with limited usage in rural areas, primarily limited to schools.",
+            "Urban elites often use English as a class marker and within interpersonal interactions, associating with educated circles.",
+            "English remains the sole medium of instruction and language of research in colleges and universities.",
+            "Ngugi wa Thiong’o, a prominent Kenyan writer, influenced attitudes towards English, advocating for the preservation of local languages."
+        ]
     },
     {
-      "country": "Cameroon",
-      "fact": [
-        "Cameroon's linguistic diversity includes English and French as official languages.",
-        "Cameroon's Anglophone and Francophone regions contribute to bilingualism.",
-        "English proficiency is crucial for employment opportunities in Cameroon.",
-        "The use of Cameroonian Pidgin English is prevalent in informal communication.",
-        "Cameroon has a rich literary tradition in both English and French languages.",
-        "English is integral to Cameroon's legal and educational systems.",
-        "Cameroonian youths often blend English with local slang and expressions.",
-        "The English language serves as a bridge between Cameroon's diverse communities.",
-        "Cameroon's business landscape often requires English fluency for international dealings.",
-        "Cameroonians view English as a gateway to global communication and connectivity."
-      ]
+        "country": "Cameroon",
+        "fact": [
+            "According to the 2005 census, 23% of the population speak English.",
+            "Cameroon Pidgin English (CPE) is widely used not only in the North-West and South-West provinces but also in the Littoral and West provinces.",
+            "The perception of Cameroon Pidgin English has evolved beyond a regional lingua franca to potentially having a national dimension.",
+            "In both urban and rural settings, Cameroon Pidgin English thrives, prevalent in churches, markets, transport hubs, and informal gatherings.",
+            "Cameroonian Pidgin English goes by the colloquial name 'Kamtok,' derived from 'Cam(eroon) talk.'",
+            "English shares official language status in Cameroon with French.",
+            "English serves as the primary language of instruction across secondary schools and higher education institutions in Cameroon.",
+            "French-English bilingualism is being promoted through special bilingual primary and secondary schools like the Bilingual Grammar school at Molyko-Buca.",
+            "Despite constitutional equality, French holds a *de facto* dominance in administration, education, and media over English in Cameroon.",
+            "Missionaries introduced English as the initial western language in Cameroonian education."
+        ]
     }
-  ]
-  
+]
