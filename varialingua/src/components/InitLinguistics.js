@@ -59,33 +59,34 @@ const InitLinguistics = () => {
   );
 
   const renderLinguisticContent = (linguisticData) => {
-    return linguisticData.map((data) => (
-      <div className="linguistic-card" key={data.country}>
+
+    const vocabKeys = Object.keys(linguisticData.linguisticContent.vocab);
+    const randomKey = vocabKeys[Math.floor(Math.random() * vocabKeys.length)];
+    const randomObject = linguisticData.linguisticContent.vocab[randomKey];
+    const randomWord = Object.keys(randomObject)[Math.floor(Math.random() * Object.keys(randomObject).length)];
+    const definition = randomObject[randomWord];
+
+    return (
+      <div className="linguistic-card">
         <div className="linguistic-card-content">
           {
-            data.linguisticContent.phonetics[
-              Math.floor(
-                Math.random() * data.linguisticContent.phonetics.length
-              )
-            ]
+    linguisticData.linguisticContent.phonetics[
+      Math.floor(Math.random() * linguisticData.linguisticContent.phonetics.length)
+    ].title
           }
         </div>
         <div className="linguistic-card-content">
-          {
-            data.linguisticContent.vocab[
-              Math.floor(Math.random() * data.linguisticContent.vocab.length)
-            ]
-          }
+          "{randomWord.replace(/_/g,' ')}" - {definition}
         </div>
         <div className="linguistic-card-content no-bottom">
           {
-            data.linguisticContent.grammar[
-              Math.floor(Math.random() * data.linguisticContent.grammar.length)
-            ]
+    linguisticData.linguisticContent.grammar[
+      Math.floor(Math.random() * linguisticData.linguisticContent.grammar.length)
+    ].title
           }
         </div>
       </div>
-    ));
+    )
   };
 
   return (
@@ -110,7 +111,7 @@ const InitLinguistics = () => {
                 <h3>Nigerian English</h3>
               </div>
               <div className="init-ling-content">
-                {renderLinguisticContent(nigeriaLinguisticData)}
+                {renderLinguisticContent(nigeriaLinguisticData[0])}
               </div>
             </div>
             <div
@@ -121,7 +122,7 @@ const InitLinguistics = () => {
                 <h3>Kenyan English</h3>
               </div>
               <div className="init-ling-content">
-                {renderLinguisticContent(kenyaLinguisticData)}
+                {renderLinguisticContent(kenyaLinguisticData[0])}
               </div>
             </div>
             <div
@@ -132,7 +133,7 @@ const InitLinguistics = () => {
                 <h3>Cameroonian English</h3>
               </div>
               <div className="init-ling-content">
-                {renderLinguisticContent(cameroonLinguisticData)}
+                {renderLinguisticContent(cameroonLinguisticData[0])}
               </div>
             </div>
           </div>

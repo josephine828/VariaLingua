@@ -833,3 +833,8 @@ h4 {
   height: 57.5vh;
   overflow-y: auto;
 }
+
+.top-bar {
+  border-top: 2px solid #2a9d8f;
+  padding-top: 20px;
+}

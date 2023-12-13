@@ -43,7 +43,7 @@ const WelcomeScreen = () => {
           <p>
             Begin your exploration by selecting a country or navigating to the
             History, Culture, or Linguistics sections to uncover the facets of
-            English language evolution!
+            English language evolution in Nigeria, Kenya, and Cameroon!
           </p>
         </div>
         <div className="init-profile-right-content">

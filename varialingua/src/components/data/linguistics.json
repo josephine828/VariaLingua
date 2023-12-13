@@ -1,201 +1,463 @@
 [
-  {
-    "country": "Nigeria",
-    "linguisticContent": {
-      "phonetics": [
-        "\u025B",
-        "\u0254",
-        "\u026A",
-        "\u028A",
-        "a",
-        "i",
-        "u",
-        "e",
-        "o",
-        "p",
-        "b",
-        "t",
-        "d",
-        "k",
-        "g",
-        "f",
-        "v",
-        "s",
-        "z",
-        "\u0283",
-        "\u0292",
-        "h",
-        "m",
-        "n",
-        "\u0272",
-        "\u014B",
-        "l",
-        "r",
-        "j",
-        "w",
-        "\u0263",
-        "x",
-        "\u027E",
-        "\u027D",
-        "\u0278",
-        "\u03B2",
-        "\u03B8",
-        "\u00F0",
-        "\u0294",
-        "\u0266",
-        "\u026C",
-        "\u026E",
-        "\u0283",
-        "\u027B",
-        "\u0280",
-        "\u0281",
-        "\u0260",
-        "\u028B",
-        "\u027D",
-        ""
-      ],
-      "vocab": [
-        "pidgin",
-        "buka",
-        "okada",
-        "chop",
-        "naira",
-        "mama put",
-        "bungalow",
-        "danfo",
-        "agbada",
-        "gele",
-        "suya",
-        "owambe",
-        "aso ebi",
-        "akara",
-        "boubou",
-        "egusi",
-        "suya",
-        "efo",
-        "jollof",
-        "sisi",
-        "koro",
-        "k-leg",
-        "nkwobi",
-        "ogo",
-        "owu",
-        "puff-puff"
-      ],
-      "grammar": [
-        "use of 'I go'",
-        "use of 'I no fit'",
-        "wetin be dat"
-      ]
+    {
+        "country": "Nigeria",
+        "linguisticContent": {
+            "phonetics": [
+                {
+                    "title": "Vowel Reduction and Merging",
+                    "description": "The vowel system in Nigerian English reduces and merges distinct vowel sounds.",
+                    "examples": [
+                        {
+                            "word": "hand",
+                            "originalPronunciation": "/hænd/",
+                            "alteredPronunciation": "/a/"
+                        },
+                        {
+                            "word": "month",
+                            "originalPronunciation": "/mʌnθ/",
+                            "alteredPronunciation": "/ɔ/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Diphthong Simplification",
+                    "description": "English diphthongs with mid-high onsets are often simplified.",
+                    "examples": [
+                        {
+                            "word": "day",
+                            "originalPronunciation": "/deɪ/",
+                            "alteredPronunciation": "/e/"
+                        },
+                        {
+                            "word": "load",
+                            "originalPronunciation": "/ləʊd/",
+                            "alteredPronunciation": "/o/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Phonetic Substitutions",
+                    "description": "Various phonetic substitutions are observed in Nigerian English.",
+                    "examples": [
+                        {
+                            "word": "boys",
+                            "originalPronunciation": "/bɔɪz/",
+                            "alteredPronunciation": "/ˈbɔɪs/"
+                        },
+                        {
+                            "word": "expect",
+                            "originalPronunciation": "/ɪkˈspekt/",
+                            "alteredPronunciation": "/ekˈspekt/"
+                        },
+                        {
+                            "word": "conclusion",
+                            "originalPronunciation": "/kənˈkluːʒən/",
+                            "alteredPronunciation": "/kənˈkluːʃən/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Consonant Alterations",
+                    "description": "Various consonant alterations are present in Nigerian English.",
+                    "examples": [
+                        {
+                            "word": "think",
+                            "originalPronunciation": "/θɪŋk/",
+                            "alteredPronunciation": "/tɪŋk/"
+                        },
+                        {
+                            "word": "thing",
+                            "originalPronunciation": "/θɪŋ/",
+                            "alteredPronunciation": "/fɪŋ/"
+                        }
+                    ]
+                }
+            ],
+            "vocab": {
+                "pidgin": {
+                    "wahala": "trouble or problem",
+                    "boku": "plenty or much",
+                    "sabi": "to know or understand",
+                    "chop": "to eat"
+                },
+                "loanwords": {
+                    "buka": "a local food joint or street stall",
+                    "okada": "a motorcycle taxi",
+                    "agbada": "a traditional flowing robe",
+                    "akpu": "cassava, eaten with soup"
+                },
+                "neologisms": {
+                    "gist": "to chat or share gossip",
+                    "ember_months": "the final four months of the calendar year (September to December)",
+                    "sef": "used for emphasis, expressing irritation or impatience",
+                    "k-leg": "a problem or flaw"
+                }
+            },
+            "grammar": [
+                {
+                    "title": "Emphatic Discourse Marker",
+                    "description": "The term 'o' functions as an emphatic discourse marker at the end of a clause, emphasizing the truth or implying empathy.",
+                    "examples": [
+                        "This na true talk o.",
+                        "He is a good person o."
+                    ]
+                },
+                {
+                    "title": "Copula 'Na' Usage",
+                    "description": "The term 'na' functions as a copula and highlighting device.",
+                    "examples": ["Na im be dat.", "Na im I talk about."]
+                },
+                {
+                    "title": "Aspect Markers for Temporal Relations",
+                    "description": "Preverbal markers like 'go' for future, 'don' for completive, and 'dey' for ongoing actions express temporal and aspectual relations.",
+                    "examples": ["You go see.", "E don reach di time."]
+                },
+                {
+                    "title": "Negation and Pronouns",
+                    "description": "Negation using 'no' before the verb phrase and variations in pronouns.",
+                    "examples": ["No go cause.", "Tell am."]
+                },
+                {
+                    "title": "Prepositions and Plural Markers",
+                    "description": "Usage of 'for' for various meanings and variations in plural forms.",
+                    "examples": [
+                        "News for today.",
+                        "Dem broders and sisters dem."
+                    ]
+                },
+                {
+                    "title": "Aspect Markers in Verb Forms",
+                    "description": "Use of aspect markers like 'done' to denote completed actions.",
+                    "examples": ["I have been knowing him."]
+                },
+                {
+                    "title": "Simplified Past Tense Forms",
+                    "description": "Simplified forms of past tense verbs.",
+                    "examples": ["She been tell me."]
+                },
+                {
+                    "title": "Article Usage and Prepositional Variations",
+                    "description": "Limited use or omission of articles and alterations in prepositional usage.",
+                    "examples": ["She is doctor.", "He is at the hospital."]
+                },
+                {
+                    "title": "Question Structures and Negation Patterns",
+                    "description": "Alterations in question formation and negation patterns.",
+                    "examples": ["Is it not?", "I no go do am."]
+                }
+            ]
+        }
+    },
+    {
+        "country": "Kenya",
+        "linguisticContent": {
+            "phonetics": [
+                {
+                    "title": "Diphthong Simplification",
+                    "description": "Diphthongs in words are often simplified into single vowel sounds.",
+                    "examples": [
+                        {
+                            "word": "price",
+                            "originalPronunciation": "/praɪs/",
+                            "alteredPronunciation": "/aː/ pronounced as 'pras'"
+                        }
+                    ]
+                },
+                {
+                    "title": "Final Consonant Deletion",
+                    "description": "Final consonants in words can be omitted or dropped in Kenyan English pronunciation.",
+                    "examples": [
+                        {
+                            "word": "cold",
+                            "originalPronunciation": "/koʊld/",
+                            "alteredPronunciation": "'col'"
+                        }
+                    ]
+                },
+                {
+                    "title": "Vowel Reduction in Unstressed Syllables",
+                    "description": "Unstressed syllables often undergo vowel reduction or schwa sounds.",
+                    "examples": [
+                        {
+                            "word": "important",
+                            "originalPronunciation": "/ɪmˈpɔːrtənt/",
+                            "alteredPronunciation": "might sound like 'impotent' with reduced vowel sounds."
+                        }
+                    ]
+                },
+                {
+                    "title": "Vowel Lengthening",
+                    "description": "Some vowels are lengthened compared to standard English pronunciation.",
+                    "examples": [
+                        {
+                            "word": "bed",
+                            "originalPronunciation": "/bɛd/",
+                            "alteredPronunciation": "might be pronounced longer, sounding like 'bee-ed.'"
+                        }
+                    ]
+                },
+                {
+                    "title": "Syllable-Timed Rhythm",
+                    "description": "Kenyan English tends to follow a syllable-timed rhythm rather than the stress-timed rhythm of British English.",
+                    "examples": [
+                        {
+                            "word": "I am going to the market",
+                            "originalPronunciation": "",
+                            "alteredPronunciation": "may sound more evenly timed in syllables, with less stress variation."
+                        }
+                    ]
+                },
+                {
+                    "title": "Pronunciation of Loanwords",
+                    "description": "Loanwords from local languages might retain their original pronunciation.",
+                    "examples": [
+                        {
+                            "word": "safari",
+                            "originalPronunciation": "",
+                            "alteredPronunciation": "retains the native pronunciation as 'sa-fa-ri,' unlike its English counterpart."
+                        }
+                    ]
+                },
+                {
+                    "title": "Intonation Patterns",
+                    "description": "The intonation patterns in Kenyan English might differ from those in standard British English.",
+                    "examples": [
+                        {
+                            "word": "question sentences",
+                            "originalPronunciation": "",
+                            "alteredPronunciation": "might have rising intonation towards the end, differing from standard English intonation."
+                        }
+                    ]
+                },
+                {
+                    "title": "Vowel Shift in Certain Words",
+                    "description": "Some words might undergo vowel shifts based on local pronunciation influences.",
+                    "examples": [
+                        {
+                            "word": "car",
+                            "originalPronunciation": "/kɑːr/",
+                            "alteredPronunciation": "may sound like 'ka' or 'kaa' due to vowel shifts."
+                        }
+                    ]
+                }
+            ],
+            "vocab": {
+                "pidgin": {
+                    "matatu": "public transport vehicles",
+                    "hakuna_matata": "no worries",
+                    "pole_pole": "slowly or gently",
+                    "safari": "journey or trip"
+                },
+                "loanwords": {
+                    "nyama_choma": "roasted meat",
+                    "simba": "lion",
+                    "maji": "water",
+                    "harambee": "working together"
+                },
+                "neologisms": {
+                    "piki_piki": "bicycles",
+                    "madodology": "a meal made of beans",
+                    "kimenyanization": "favoritism",
+                    "m-boree": "a boring person"
+                }
+            },
+            "grammar": [
+                {
+                    "title": "Emphatic Discourse Marker",
+                    "description": "The term 'o' functions as an emphatic discourse marker at the end of a clause, emphasizing the truth or implying empathy.",
+                    "examples": [
+                        "This na true talk o.",
+                        "He is a good person o."
+                    ]
+                },
+                {
+                    "title": "Copula 'Na'",
+                    "description": "The word 'na' acts as a copula in Kenyan English, often highlighting or emphasizing the following constituent.",
+                    "examples": [
+                        "Na im make the party sweet.",
+                        "Na my friend dem."
+                    ]
+                },
+                {
+                    "title": "Relative Pronoun 'Whose' Avoidance",
+                    "description": "The relative pronoun 'whose' is frequently replaced with 'that' in Kenyan English.",
+                    "examples": [
+                        "The man that I bought a car from went to Mombasa last week.",
+                        "The woman that got her purse stolen went to the police."
+                    ]
+                },
+                {
+                    "title": "Articles Omission and Usage",
+                    "description": "Articles are sometimes omitted where needed, and 'the' is used in unconventional instances, especially with uncountable nouns.",
+                    "examples": [
+                        "I stepped in the mud on my way home.",
+                        "Give me burger."
+                    ]
+                },
+                {
+                    "title": "Pluralization of Uncountable Nouns",
+                    "description": "Certain uncountable nouns, like 'data' or 'equipment,' are pluralized, more prevalent among specific social classes and rural areas.",
+                    "examples": [
+                        "I have many softwares.",
+                        "The equipments are ready."
+                    ]
+                },
+                {
+                    "title": "British English Spelling Usage",
+                    "description": "In written Kenyan English, British English spellings are frequently preferred over American English spellings.",
+                    "examples": ["Colour, metre, defence."]
+                },
+                {
+                    "title": "Progressive Aspect Use",
+                    "description": "Kenyan English employs the progressive aspect with 'is' or 'are' along with the '-ing' form of verbs more frequently.",
+                    "examples": ["He is eating.", "She is working."]
+                }
+            ]
+        }
+    },
+    {
+        "country": "Cameroon",
+        "linguisticContent": {
+            "phonetics": [
+                {
+                    "title": "Vowel Mergers",
+                    "description": "Vowel mergers occur, leading to the homophony of specific words like 'cot,' 'caught,' and 'cut.'",
+                    "examples": [
+                        {
+                            "sentence": "Words like 'cot,' 'caught,' and 'cut' become homophones.",
+                            "pronunciation": "/kɔːt/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Diphthong Simplification",
+                    "description": "Diphthong /əu/ in words like 'low' is simplified to /u/.",
+                    "examples": [
+                        {
+                            "word": "low",
+                            "originalPronunciation": "/ləʊ/",
+                            "alteredPronunciation": "/u/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Long Vowel Shift",
+                    "description": "The long /i:/ vowel sound changes to /e/.",
+                    "examples": [
+                        {
+                            "word": "see",
+                            "originalPronunciation": "/siː/",
+                            "alteredPronunciation": "/se/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Consonant Alterations",
+                    "description": "Changes in consonant sounds such as the voicing of /p/ to /b/.",
+                    "examples": [
+                        {
+                            "word": "pat",
+                            "originalPronunciation": "/pæt/",
+                            "alteredPronunciation": "/bæt/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fricative Changes",
+                    "description": "Interdental fricatives shift to alveolar plosives.",
+                    "examples": [
+                        {
+                            "word": "thin",
+                            "originalPronunciation": "/θɪn/",
+                            "alteredPronunciation": "/tɪn/"
+                        },
+                        {
+                            "word": "breathe",
+                            "originalPronunciation": "/briːð/",
+                            "alteredPronunciation": "/briːd/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Final Consonant Reduction",
+                    "description": "Reduction of final consonants and devoicing of voiced consonants.",
+                    "examples": [
+                        {
+                            "word": "last",
+                            "originalPronunciation": "/lɑːst/",
+                            "alteredPronunciation": "/læst/"
+                        },
+                        {
+                            "word": "proud",
+                            "originalPronunciation": "/praʊd/",
+                            "alteredPronunciation": "/praʊt/"
+                        }
+                    ]
+                },
+                {
+                    "title": "Fricative Realization",
+                    "description": "Voiced and voiceless fricatives are realized differently.",
+                    "examples": [
+                        {
+                            "word": "because",
+                            "originalPronunciation": "/bɪˈkɒz/",
+                            "alteredPronunciation": "/bɪˈkɒs/"
+                        }
+                    ]
+                }
+            ],
+            "vocab": {
+                "pidgin": {
+                    "mbindi": "a little thing",
+                    "boulot": "work",
+                    "shidon": "to sit down or relax",
+                    "tchuk": "push, hit violently"
+                },
+                "loanwords": {
+                    "bend_skin": "a shared taxi or a motorbike",
+                    "mami_wata": "a term referring to a mermaid or a mystical water spirit",
+                    "kanda": "skin",
+                    "mboko": "an area considered rural or underdeveloped"
+                },
+                "neologisms": {
+                    "cry_die": "death celebration",
+                    "ground_beef": "palm rat that lives in holes in the ground",
+                    "red_oil": "palm oil",
+                    "paramount": "traditional ruler"
+                }
+            },
+            "grammar": [
+                {
+                    "title": "Sense Verbs Distinction",
+                    "description": "Distinct use of sense verbs in Cameroonian English, such as substituting 'hear' for 'smell' influenced by native languages.",
+                    "examples": [
+                        "Using 'hear' instead of 'smell' due to native language influence."
+                    ]
+                },
+                {
+                    "title": "Position of Interrogatives",
+                    "description": "Interrogatives like 'who,' 'what,' and 'where' are placed at the end in Cameroonian English, varying based on formality and speaker's education level.",
+                    "examples": ["The man I saw, who?", "Where he dey?"]
+                },
+                {
+                    "title": "Omission of Determiner 'the'",
+                    "description": "The absence of the determiner 'the' in Cameroonian languages influences its omission before nouns in Cameroon English.",
+                    "examples": ["I'm going to school.", "She gave me book."]
+                },
+                {
+                    "title": "Resumptive Pronoun Usage",
+                    "description": "Usage of resumptive pronouns not only after focused nouns but also within relative clauses in Cameroonian English.",
+                    "examples": [
+                        "My brother, he is smart.",
+                        "The car I like, it's fast."
+                    ]
+                },
+                {
+                    "title": "Universal Tag Question 'na'",
+                    "description": "In Cameroonian English, a universal tag question 'na' is employed irrespective of subject, tense, or person in the sentence.",
+                    "examples": ["You know that, na?", "He's coming, na?"]
+                }
+            ]
+        }
     }
-  },
-  {
-    "country": "Kenya",
-    "linguisticContent": {
-      "phonetics": [
-        "a",
-        "e",
-        "i",
-        "o",
-        "u",
-        "b",
-        "d",
-        "g",
-        "h",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n",
-        "p",
-        "r",
-        "s",
-        "t",
-        "w",
-        "f",
-        "v",
-        "z"
-      ],
-      "vocab": [
-        "sasa",
-        "mɑˈdɑm",
-        "mɑˈdɑmbo",
-        "matatu",
-        "nyama choma",
-        "mzinga",
-        "kibandaski",
-        "kibarua",
-        "seng'enge",
-        "giza",
-        "ndege",
-        "mbinguni",
-        "pikipiki",
-        "mshukiwa",
-        "ndugu",
-        "mbwa koko",
-        "ninja",
-        "fombe",
-        "kiosk",
-        "bodaboda",
-        "shamba",
-        "harambee",
-        "sukuma wiki",
-        "mafuta ya kula",
-        "mgeni siku mbili"
-      ],
-      "grammar": [
-        "use of 'sheng'",
-        "use of 'huko'"
-      ]
-    }
-  },
-  {
-    "country": "Cameroon",
-    "linguisticContent": {
-      "phonetics": [
-        "a",
-        "\u0251",
-        "b",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "r",
-        "s",
-        "t",
-        "u",
-        "v",
-        "w",
-        "z"
-      ],
-      "vocab": [
-        "mbombo",
-        "dis o",
-        "neng",
-        "pikin",
-        "bush faller",
-        "pikin for back",
-        "moto",
-        "bend skin",
-        "chop time",
-        "mutumbu",
-        "nyongo",
-        "njama njama",
-        "dua"
-      ],
-      "grammar": [
-        "use of 'na'",
-        "use of 'so-so'"
-      ]
-    }
-  }
 ]

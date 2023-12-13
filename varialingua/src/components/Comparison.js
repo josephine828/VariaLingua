@@ -11,15 +11,32 @@ const Comparison = (props) => {
       return <p>No data available!</p>;
     }
 
-    const phonetics = countryData.linguisticContent.phonetics.join(", ");
-    const vocab = countryData.linguisticContent.vocab.join(", ");
-    const grammar = countryData.linguisticContent.grammar.join(", ");
+    const phonetics = countryData.linguisticContent.phonetics.map(
+      (phonetic) => (
+        <div key={phonetic.title}>
+          <h4>{phonetic.title}</h4>
+          <p>{phonetic.description}</p>
+        </div>
+      )
+    );
+
+    const grammar = countryData.linguisticContent.grammar.map((grammarItem) => (
+      <div key={grammarItem.title}>
+        <h4>{grammarItem.title}</h4>
+        <p>{grammarItem.description}</p>
+      </div>
+    ));
 
     return (
       <div className="comparison-country-content">
-        <p>Phonetic Differences: {phonetics}</p>
-        <p>Vocabulary and Idioms: {vocab}</p>
-        <p>Grammar Variations: {grammar}</p>
+        <div>
+          <h3 className="top-bar">Phonetic Differences</h3>
+          {phonetics}
+        </div>
+        <div>
+          <h3 className="top-bar">Grammar Variations</h3>
+          {grammar}
+        </div>
       </div>
     );
   };
