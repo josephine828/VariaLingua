@@ -143,6 +143,7 @@ h4 {
   max-height: 50%;
   align-items: flex-start;
   height: fit-content;
+  width: 20vw;
   overflow-y: auto;
   border: 3px solid #93cac7;
 }
@@ -185,7 +186,9 @@ h4 {
   height: fit-content;
   max-height: 50%;
   overflow-y: auto;
+  width: 20vw;
   border: 3px solid #93cac7;
+  overflow-x: hidden;
 }
 
 .additional-container {
@@ -837,4 +840,14 @@ h4 {
 .top-bar {
   border-top: 2px solid #2a9d8f;
   padding-top: 20px;
+}
+
+/* Sources */
+.sources li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+.sources ul {
+  padding: 0;
 }
