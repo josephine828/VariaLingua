@@ -54,7 +54,7 @@ const InitProfile = ({ country }) => {
                                     style={{ maxWidth: '100%' }}
                                 />
                             ) : (
-                                <p>No media available</p>
+                                <p>{randomCultureItem.text}</p>
                             )}
                         </div>
                         <em>Source: {randomCultureItem.source}</em>
