@@ -1,84 +1,141 @@
 [
-    {
-      "country": "Nigeria",
-      "type": "text",
-      "title": "Agnes in the Game of Love",
-      "description": "Iduh has a character, Okonkwo, use Nigerian Pidgin to express himself, and his character is less educated and adds humor to the plot.",
-      "link": "",
-      "source": "\"Agnes in the Game of Love\" by Thomas Iduh",
-      "text": "This thing don chop una head bad bad. Idon spoil una brain and na him make una papa dey talk to una, una go begin wordam like small boy."
-    },
-    {
-      "country": "Nigeria",
-      "type": "video",
-      "title": "Sap No Manna",
-      "description": "In The New Masquerade, one of the characters, Chief Zebrudaya, mixes his 'bombastic' English with ungrammatical Broken English forms.",
-      "link": "https://www.youtube.com/embed/XhO0836U3Dw",
-      "source": "The New Masquerade (sitcom) & \"New Englishes: A West African Perspective\"",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
-      "type": "video",
-      "title": "Is English The Problem",
-      "description": "In this Mark Angel Comedy series, one of the characters, Emmanuella, uses Nigerian Pidgin to express herself. Her uncle on the other hand speaks a broken form of English, which .",
-      "link": "https://www.youtube.com/embed/_Za7Hd3_raM",
-      "source": "Mark Angel Comedy",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
-      "type": "video",
-      "title": "When your Nigerian accent slips out 😬🤳🏾",
-      "description": "OK so this is over the top, but I know this is happened to many people who have learned English. 😂 or sometimes the accent comes out when you are angry or shocked. Is it just me?",
-      "link": "https://www.youtube.com/embed/Ljb_Nw0RzQc",
-      "source": "MIKE O.",
-      "text": ""
-    },
-    {
-      "country": "Nigeria",
-      "type": "picture",
-      "title": "Art and Craftsmanship",
-      "description": "Discover Nigeria's artistic heritage.",
-      "link": "https://i.ytimg.com/vi/XDXBgwQbI40/hq720_live.jpg?sqp=CLi6yKsG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDD1WehEAHrjhzIy3EG6tgQYTWZyw",
-      "source": "Local Artisans",
-      "text": ""
-    },
-    {
-      "country": "Kenya",
-      "type": "",
-      "title": "Kenyan Wildlife",
-      "description": "Explore the diverse wildlife of Kenya.",
-      "link": "",
-      "source": "National Parks Authority",
-      "text": ""
-    },
-    {
-      "country": "Kenya",
-      "type": "video",
-      "title": "Nairobi Law",
-      "description": "In this series, Richard Mwako runs his law firm with an iron hand. He demands the best from his associates and never hesitates to make decisions that he believes are in his clients' best interests.",
-      "link": "https://www.youtube.com/embed/l0LDeauz3ho",
-      "source": "TidPix",
-      "text": ""
-    },
-    {
-      "country": "Kenya",
-      "type": "video",
-      "title": "Nairobi Official Film",
-      "description": "In this short film, Rachel is a typical University girl living in the heart of Nairobi with her roommate Jess. She has a boyfriend, Mike, who happens to be Jess’ best friend.  Rachel has a habit of dating multiple men at ago. Mike on the other hand is convinced that Rachel is his soulmate and wants to propose. She finds herself in a fix when Mike decides he has had enough of her lies. Meanwhile, Jess’ is discovering her feelings for Mike and decides to explore them further.",
-      "link": "https://www.youtube.com/embed/gpu2B1VjxuU",
-      "source": "Sawa Pictures",
-      "text": ""
-    },
-    {
-      "country": "Cameroon",
-      "type": "",
-      "title": "Traditional Masks",
-      "description": "Discover the significance of Cameroonian masks.",
-      "link": "",
-      "source": "Local Art Museum",
-      "text": ""
-    }
-  ]
-  
+  {
+    "country": "Nigeria",
+    "type": "text",
+    "title": "Agnes in the Game of Love",
+    "description": "In Iduh's narrative, Okonkwo's character communicates in Nigerian Pidgin instead of Nigerian English, portraying his lower educational background and adding comedic value to the storyline. This linguistic choice enriches the plot by showcasing the diversity and social dynamics within the narrative.",
+    "link": "",
+    "source": "\"Agnes in the Game of Love\" by Thomas Iduh",
+    "text": "This thing don chop una head bad bad. Idon spoil una brain and na him make una papa dey talk to una, una go begin wordam like small boy."
+  },
+  {
+    "country": "Nigeria",
+    "type": "video",
+    "title": "Sap No Manna",
+    "description": "The New Masquerade humorously portrays Chief Zebrudaya, who injects his speeches with bombastic English intertwined with ungrammatical Broken English. This blend serves as a comedic element in the sitcom, highlighting the playful interaction between formal and informal language in Nigerian settings.",
+    "link": "https://www.youtube.com/embed/XhO0836U3Dw",
+    "source": "The New Masquerade (sitcom) & \"New Englishes: A West African Perspective\"",
+    "text": ""
+  },
+  {
+    "country": "Nigeria",
+    "type": "video",
+    "title": "Is English The Problem",
+    "description": "In the Mark Angel Comedy series, Emmanuella relies on Nigerian Pidgin to communicate, while her uncle speaks a broken form of English. This linguistic contrast generates humor, often leading to misunderstandings, as seen when Mark Angel jokingly tries to sell the kids in a particular episode. These language choices contribute to the comedic essence of the series, creating entertaining scenarios based on language differences and playful misinterpretations.",
+    "link": "https://www.youtube.com/embed/_Za7Hd3_raM",
+    "source": "Mark Angel Comedy",
+    "text": ""
+  },
+  {
+    "country": "Nigeria",
+    "type": "video",
+    "title": "NIGERIAN PIDGIN ENGLISH IN 6MINS | QUICK, EASY AND FUN (Ep1)",
+    "description": "This video introduces various Nigerian Pidgin English terms and phrases, such as 'abeg' translating to 'please' and 'wetin' meaning 'what.' It serves as an informative guide, offering insights into the everyday usage and meanings behind these expressions within the Nigerian Pidgin lexicon.",
+    "link": "https://www.youtube.com/embed/I6nV3m8hLzQ",
+    "source": "Sit With Nwanneka",
+    "text": ""
+  },
+  {
+    "country": "Nigeria",
+    "type": "video",
+    "title": "When your Nigerian accent slips out 😬🤳🏾",
+    "description": "This short humorously explores the way accents can adapt based on emotions and situations, showcasing how individuals might alter their speech when experiencing strong feelings such as anger or surprise.",
+    "link": "https://www.youtube.com/embed/Ljb_Nw0RzQc",
+    "source": "MIKE O.",
+    "text": ""
+  },
+  {
+    "country": "Kenya",
+    "type": "video",
+    "title": "Nairobi Law",
+    "description": "The video features a character like Richard Mwako whose direct way of speaking, mixing formal English with a few local sayings, reflects how Kenyan English is used in professional settings, showing how people balance formality with local expressions.",
+    "link": "https://www.youtube.com/embed/l0LDeauz3ho",
+    "source": "TidPix",
+    "text": ""
+  },
+  {
+    "country": "Kenya",
+    "type": "video",
+    "title": "Nairobi Official Film",
+    "description": "This short film showcases the everyday lives of young adults in Nairobi, reflecting the dynamics of relationships, trust, and complexities in romantic connections within the city. It offers insights into the use of Kenyan English within personal relationships, illustrating how characters balance colloquial expressions and local culture with their interactions in a modern urban setting.",
+    "link": "https://www.youtube.com/embed/gpu2B1VjxuU",
+    "source": "Sawa Pictures",
+    "text": ""
+  },
+  {
+    "country": "Kenya",
+    "type": "video",
+    "title": "BREAKING THE SPIRIT OF POVERTY",
+    "description": "Rev Lucy Natasha's sermon, delivered in Kenyan English within the Nairobi City Center, demonstrates a unique linguistic blend. Her use of indigenous phrases interspersed with English not only resonates with her audience but also prompts reactions, emphasizing key points and fostering a connection. This strategic use of language underlines her message and fosters a strong rapport, inviting agreement and engagement from her listeners.",
+    "link": "https://www.youtube.com/embed/ll4kwPlDqGg",
+    "source": "Rev Lucy Natasha",
+    "text": ""
+  },
+  {
+    "country": "Kenya",
+    "type": "video",
+    "title": "5 Pronunciations That Are 100% Kenyan: Usha's 5 Things",
+    "description": "This video glosses over some of the unique pronunciations that Kenyan English speakers use, including 'diagnosed', 'peugeot', and 'Maybelline.' It offers insights into the linguistic nuances of Kenyan English, showcasing how speakers adapt their pronunciation to reflect local culture and linguistic influences.",
+    "link": "https://www.youtube.com/embed/c-dqR7_IkjI",
+    "source": "UshaJoseDoll",
+    "text": ""
+  },
+  {
+    "country": "Kenya",
+    "type": "pic",
+    "title": "Food Billboards in Nairobi",
+    "description": "In Nairobi, billboards predominantly showcase content in English, reflecting its status as a widely used language. However, the occasional billboard in another language (as seen on the right) underscores the city's rich cultural diversity and the inclusivity of local linguistic expressions amidst the prevalent use of English in public communication.",
+    "link": "https://github.com/josephine828/VariaLingua/blob/main/varialingua/src/assets/food_billboards.png",
+    "source": "Google Maps Street View",
+    "text": ""
+  },
+  {
+    "country": "Cameroon",
+    "type": "video",
+    "title": "Understanding Cameroonian Pidgin English",
+    "description": "In this video, Kenna goes over some of the basics of Cameroonian Pidgin English, including 'lie thing' for 'liar' and 'ndon' for 'not nice.'",
+    "link": "https://www.youtube.com/embed/Tu-XNU6qm9E",
+    "source": "Kenna KEA",
+    "text": ""
+  },
+
+  {
+    "country": "Cameroon",
+    "type": "video",
+    "title": "RICHARD: EP 17- THE MESSENGER (BEST CAMEROON COMEDY)",
+    "description": "In this comedy skit, Richard unwittingly gets entangled in a relationship predicament that is unrelated to him, where humor ensues, featuring slang and casual language elements reflective of local speech patterns.",
+    "link": "https://www.youtube.com/embed/ETcwRdGm6rE",
+    "source": "Timeless Pictures Comedy",
+    "text": ""
+  },
+
+  {
+    "country": "Cameroon",
+    "type": "video",
+    "title": "Updated 2018 Summer Foundation Routine | OILY SKIN",
+    "description": "In this makeup tutorial, the Cameroonian influencer uses a blend of Cameroonian Pidgin English and predominantly standard English to communicate with her audience.",
+    "link": "https://www.youtube.com/embed/1ssar1oAGeM",
+    "source": "Timeless Pictures Comedy",
+    "text": ""
+  },
+
+  {
+    "country": "Cameroon",
+    "type": "picture",
+    "title": "Advertisement in Pidgin English, Buea",
+    "description": "This advertisement in Buea, Cameroon, showcases the use of Cameroonian Pidgin English for a telephone company. In addition to the use of Pidgin English, the advertisement also features a line of Standard English.",
+    "link": "https://www.researchgate.net/publication/347256216/figure/fig6/AS:972683231633418@1608917162724/Advertisement-in-Pidgin-English-Buea.ppm",
+    "source": "Martin Putz, 2020",
+    "text": ""
+  },
+
+  {
+    "country": "Cameroon",
+    "type": "text",
+    "title": "Easter Sunday Reading in Pidgin English Published in 1984",
+    "description": "This excerpt demonstrates the use of Pidgin English in the Sunday Lectionary, highlighting its linguistic capacity and effectiveness in religious education for Cameroonians over a century while showcasing the language's phonological and grammatical nuances.",
+    "link": "",
+    "source": "University of Hawaii",
+    "text": "Peter he talk (for Cornelius and he family) say, 'Una done hear the thing whe dem just happen for Judea; for Jesus for Nazareth and how he been begin for Galilee after John he been teach doctrine for Baptism. God he been fullup Jesus with the Holy Spirit and with power; and because God he been be with he so, Jesus he been waka for all place for do good thing, and for help the people whe them been be for satan he power…'"
+  }
+]

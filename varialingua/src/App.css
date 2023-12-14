@@ -389,6 +389,20 @@ h4 {
 }
 
 /* Culture Component */
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.middle-container .material-content {
+  margin: 20px;
+}
+
 .material-gallery {
   height: 75.8vh;
   display: flex;
